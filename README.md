@@ -15,7 +15,7 @@ source activate ehr-big-data
 
 
 # EAST Example
-```python
+```bash
 
 python text_detection.py --image examples/images/example_09.jpg --east frozen_east_text_detection.pb
 ```
