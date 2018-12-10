@@ -12,3 +12,10 @@ Image processing tool for Electronic Health Records (EHR) using Spark, HDFS, Tes
 conda env create -f environment.yml
 source activate ehr-big-data
 ```
+
+
+# EAST Example
+```python
+
+python text_detection.py --image examples/images/example_09.jpg --east frozen_east_text_detection.pb
+```
